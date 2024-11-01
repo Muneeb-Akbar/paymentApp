@@ -87,8 +87,7 @@ function Payment_page() {
               Redeem
             </button>
           </div>
-         </div> 
-       
+      </div>
 
         <div className="space-y-5 mb-6">
           <div className="flex justify-between text-gray-500 py-2">
