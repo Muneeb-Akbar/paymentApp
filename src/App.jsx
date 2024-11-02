@@ -2,7 +2,7 @@
 import React from "react";
 import Date_Range from "./components/Date_Range";
 import Payment_page from "./components/Payment_page";
-// import Career from "./components/Career";
+import Career from "./components/Career";
 
 function App() {
   const handleDateRangeChange = (start, end) => {
@@ -17,6 +17,9 @@ function App() {
       </div>
       <div>
         <Date_Range onDateChange={handleDateRangeChange} />
+      </div>
+      <div>
+        <Career/>
       </div>
     </div>
   );
