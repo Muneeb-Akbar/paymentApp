@@ -37,13 +37,13 @@ const CareersPage = () => {
               onClick={() => toggleDropdown(index)}  
             >
               <span className="font-medium px-3 py-4">Job Title : Software Engineer</span>
-              <button className="text-gray-600 px-4 py-2 rounded-lg transition">
+              <button className="text-gray-600 px-4 py-2 rounded-lg transition hover:text-white">
                 {openDropdown === index ? "▲" : "▼"}
               </button>
             </div>
 
             {openDropdown === index && (
-              <div className="mt-4 p-4 bg-gray-50 text-gray-700 rounded-lg flex flex-col items-center">
+              <div className="mt-4 p-4 bg-gray-50 text-gray-700 rounded-lg flex flex-col items-center ">
                 <h2 className="text-center font-semibold">Description:</h2>
                 <p className="text-left mt-3 mx-20">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos temporibus non soluta ducimus. Inventore, perferendis earum. Commodi dolore mollitia optio tempora debitis ullam alias praesentium. Esse odit sequi id, magnam cumque ab dolorem hic temporibus minus impedit, dicta suscipit tempore! Praesentium, veritatis quaerat magnam laudantium nisi obcaecati ad quasi.
