@@ -12,12 +12,12 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-start bg-gray-100 space-y-6">
-      <div className="w-full">
+      {/* <div className="w-full">
         <Payment_page />
       </div>
       <div>
         <Date_Range onDateChange={handleDateRangeChange} />
-      </div>
+      </div> */}
       <div>
         <Career/>
       </div>
