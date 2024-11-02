@@ -18,7 +18,7 @@ const CareersPage = () => {
           </p>
         </div>
         <div className="flex justify-center md:justify-end">
-          <img src={Image} alt="Team illustration" className="w-80 h-50" />
+          <img src={Image} alt="Team illustration" className="w-85 h-50" />
         </div>
       </div>
 
