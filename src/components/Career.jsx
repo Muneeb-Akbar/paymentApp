@@ -30,10 +30,9 @@ const CareersPage = () => {
 
       <div className="space-y-4 cursor-pointer custom-shadow">
         {[1, 2, 3].map((job, index) => (
-          <div key={index} className="border-gray-300 pb-4">
+          <div key={index} className="border-gray-300 ">
             <div 
-              className="bg-white flex justify-between items-center rounded-lg hover:bg-blue-950 hover:text-white transition-shadow" 
-              style={{ boxShadow: '0 8px 20px rgba(0, 0, 0, 0.5)' }} 
+              className="bg-white flex justify-between items-center rounded-lg hover:bg-blue-950 hover:text-white shadow-sm " 
               onClick={() => toggleDropdown(index)}  
             >
               <span className="font-medium px-3 py-4">Job Title : Software Engineer</span>
@@ -43,7 +42,7 @@ const CareersPage = () => {
             </div>
 
             {openDropdown === index && (
-              <div className="mt-4 p-4 bg-gray-50 text-gray-700 rounded-lg flex flex-col items-center ">
+              <div className="mt-4 p-4 bg-gray-50 text-gray-700 rounded-lg flex flex-col items-center">
                 <h2 className="text-center font-semibold">Description:</h2>
                 <p className="text-left mt-3 mx-20">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos temporibus non soluta ducimus. Inventore, perferendis earum. Commodi dolore mollitia optio tempora debitis ullam alias praesentium. Esse odit sequi id, magnam cumque ab dolorem hic temporibus minus impedit, dicta suscipit tempore! Praesentium, veritatis quaerat magnam laudantium nisi obcaecati ad quasi.
