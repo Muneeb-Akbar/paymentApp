@@ -22,7 +22,7 @@ const CareersPage = () => {
           <img
             src={Image}
             alt="Team illustration"
-            className="w-auto h-auto"
+            className="w-80 h-50"
           />
         </div>
       </div>
@@ -37,7 +37,7 @@ const CareersPage = () => {
         {[1, 2, 3].map((job, index) => (
           <div key={index} className="border-b border-gray-300 pb-4">
             <div className="bg-white flex justify-between items-center  hover:bg-blue-950  hover:text-white ">
-              <span className="font-medium px-2 py-2">Job Title : Software Engineer</span>
+              <span className="font-medium px-3 py-4">Job Title : Software Engineer</span>
               <button
                 onClick={() => toggleDropdown(index)}
                 className="text-gray-600 px-4 py-2 rounded-lg hover:bg-blue-950 transition"
