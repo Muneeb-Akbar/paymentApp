@@ -47,7 +47,6 @@ const Date_Range = ({ onDateChange }) => {
           )}
         </div>
       </div>
-    // </div>
   );
 };
 
